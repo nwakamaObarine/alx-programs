@@ -11,17 +11,10 @@
 void *malloc_checked(unsigned int b)
 {
 
-	unsingned int *ptr;
-	unsigned int b, i;
+	void *ptr;
 
-	ptr = (unsigned int *)malloc(n * sizeof(unsinged int));
+	ptr = malloc(b);
 	if (ptr == NULL)
-	{
-		exit(98)
-	}
-	else
-	{
-		printf("memory successfully allocated using malloc." '\n')
-	}
-	return (98);
+		exit(98);
+	return (ptr);
 }
