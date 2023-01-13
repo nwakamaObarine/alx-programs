@@ -3,10 +3,10 @@
 
 /**
  *malloc_checked - allocates memory and checks allocated memory
- *@b: parameter to be allocated
+ *@b:byte to be allocated
  *
  * Return: 98 on failure
-*/
+ */
 
 void *malloc_checked(unsigned int b)
 {

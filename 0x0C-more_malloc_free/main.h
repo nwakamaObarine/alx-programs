@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -12,4 +14,4 @@ int _strlen(char *s);
 void errors(void);
 int is_digit(char *s);
 
-#endif 
+#endif
